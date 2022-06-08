@@ -7,14 +7,13 @@ const Menu = () => {
       <div className="bg-info">
         <Navbar expand="lg">
           <Nav.Link>
-            <Link to="/counter" className="btn btn-outline-success">
-              Counter
-            </Link>
-          </Nav.Link>
-
-          <Nav.Link>
             <Link to="/funtodolist" className="btn btn-outline-success">
               ToDOLIst
+            </Link>
+          </Nav.Link>
+          <Nav.Link>
+            <Link to="/compmodal" className="btn btn-outline-success">
+              Modal Component
             </Link>
           </Nav.Link>
           <Nav.Link>
@@ -22,21 +21,21 @@ const Menu = () => {
               Digital Clock Functional component
             </Link>
           </Nav.Link>
+
           <Nav.Link>
             <Link to="/digiclockclass" className="btn btn-outline-success">
               Digital Clock Class component
+            </Link>
+          </Nav.Link>
+          <Nav.Link>
+            <Link to="/emicalc" className="btn btn-outline-success">
+              EMI Calculator Class
             </Link>
           </Nav.Link>
 
           <Nav.Link>
             <Link to="/currencyconverter" className="btn btn-outline-success">
               Currency Converter
-            </Link>
-          </Nav.Link>
-
-          <Nav.Link>
-            <Link to="/hoc2" className="btn btn-outline-success">
-              FILTER DATA
             </Link>
           </Nav.Link>
 
